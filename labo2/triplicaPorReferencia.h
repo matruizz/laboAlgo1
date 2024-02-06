@@ -1,0 +1,2 @@
+
+void triplicaPorReferencia(int *valor);

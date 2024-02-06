@@ -1,0 +1,1 @@
+int triplicaPorValor(int valor);
