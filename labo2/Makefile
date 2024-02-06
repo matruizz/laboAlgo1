@@ -10,9 +10,8 @@ ej2: ej2.cpp
 ej3: ej3.cpp
 	g++ ej3.cpp -o ej3 -g
 
-ej5: ej4.cpp cda.cpp cda.h
-	g++ ej4.cpp -o ej5 -g
+ej5: ej4.cpp dca.cpp dca.h
+	g++ ej4.cpp dca.cpp dca.h -o ej5 -g
 
 ej6: ej6.cpp triplicaPorValor.cpp triplicaPorValor.h triplicaPorReferencia.h triplicaPorReferencia.cpp
 	g++ ej6.cpp triplicaPorReferencia.cpp triplicaPorReferencia.h triplicaPorValor.cpp triplicaPorValor.h -o ej6 -g
-
