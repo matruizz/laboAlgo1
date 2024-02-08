@@ -22,5 +22,8 @@ ej7: ej7.cpp swap.cpp swap.h
 ej8: ej8.cpp collatz.cpp collatz.h
 	g++ ej8.cpp collatz.cpp collatz.h -o ej8 -g
 
+ej9: ej9.cpp division.cpp division.h
+	g++ ej9.cpp division.cpp division.h -o ej9 -g
+
 limpiar:
-	rm -f ej1 ej2 ej3 ej4 ej5 ej6 ej7 ej8
+	rm -f ej1 ej2 ej3 ej4 ej5 ej6 ej7 ej8 ej9
