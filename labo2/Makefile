@@ -16,5 +16,11 @@ ej5: ej5.cpp dca.cpp dca.h
 ej6: ej6.cpp triplicaPorValor.cpp triplicaPorValor.h triplicaPorReferencia.h triplicaPorReferencia.cpp
 	g++ ej6.cpp triplicaPorReferencia.cpp triplicaPorReferencia.h triplicaPorValor.cpp triplicaPorValor.h -o ej6 -g
 
+ej7: ej7.cpp swap.cpp swap.h
+	g++ ej7.cpp swap.cpp swap.h -o ej7 -g
+
+ej8: ej8.cpp collatz.cpp collatz.h
+	g++ ej8.cpp collatz.cpp collatz.h -o ej8 -g
+
 limpiar:
 	rm -f ej1 ej2 ej3 ej4 ej5 ej6
