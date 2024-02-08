@@ -1,0 +1,1 @@
+void collatz(long int n, int &cantPasos);

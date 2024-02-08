@@ -23,4 +23,4 @@ ej8: ej8.cpp collatz.cpp collatz.h
 	g++ ej8.cpp collatz.cpp collatz.h -o ej8 -g
 
 limpiar:
-	rm -f ej1 ej2 ej3 ej4 ej5 ej6
+	rm -f ej1 ej2 ej3 ej4 ej5 ej6 ej7 ej8
