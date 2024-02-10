@@ -1,0 +1,1 @@
+void collatzIter(long int n, int &cantPasos);

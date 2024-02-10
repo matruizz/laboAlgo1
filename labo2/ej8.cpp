@@ -1,6 +1,7 @@
 #include "iostream"
 
 #include "collatz.h"
+#include "collatzIter.h"
 
 using namespace std;
 
@@ -12,6 +13,11 @@ int main(){
     cin>>n;
     
     collatz(n, cantPasos);
+
+    cantPasos = 0;
+    
+    collatzIter(n, cantPasos);
+
     
     return 0;
 }

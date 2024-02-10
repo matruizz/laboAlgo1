@@ -22,7 +22,7 @@ void collatz(long int n, int &cantPasos){
     }else{
         cantPasos++;
         
-        cout<<"La cantidad de pasos es: "<<cantPasos<<endl; 
+        cout<<"La cantidad de pasos es: "<<cantPasos<<endl;
     }
     
 }
